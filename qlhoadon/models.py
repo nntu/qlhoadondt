@@ -17,7 +17,7 @@ class HoaDonDienTu(models.Model):
     KyHieu = models.CharField(max_length=255)
     So = models.CharField(max_length=255)
     NgayHoaDon = models.DateField()
-    SoTien = models.DecimalField()
+    SoTien = models.BigIntegerField()
     DiaChiTraCuu = models.CharField(max_length=255)
     MaSoBiMat = models.CharField(max_length=255)    
     NguoiThanhToan  = models.CharField(max_length=255)
